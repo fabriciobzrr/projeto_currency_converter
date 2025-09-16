@@ -25,9 +25,9 @@ body {
   width: 100%;
   height: 100vh;
 
-  background-image: url("./img/bg.png");
+  background-image: url("./img/bg2.png");
   background-size: cover;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(3px);
 
   display: flex;
   align-items: center;
@@ -90,7 +90,7 @@ select {
   appearance: none;
 
   background: url("./img/chevron-down.svg") no-repeat;
-  background-position: calc(100% - 0.75rem) center !important;
+  background-position: calc(100% - 0rem) center !important;
   background-color: #0c0c18;
 
   cursor: pointer;

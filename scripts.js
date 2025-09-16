@@ -44,7 +44,6 @@ form.onsubmit = (noReload) => {
     case "GBP":
       convertCurrency(amount.value, GBP, "£")
       break
-    default:
   }
 }
 
